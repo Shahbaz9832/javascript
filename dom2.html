@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chai aur code</title>
+</head>
+<body>
+    <div class="parent">
+        <div class="div day">monday</div>
+        <div class="div day">tuesday</div>
+        <div class="div day">wednesday</div>
+        <div class="div day">thursday</div>
+    </div>
+</body>
+</html>
+<script>
+    const parent =document.querySelector('.parent')
+    console.log(parent)
+    console.log(parent.children);
+    console.log(parent.children[1].innerHTML);
+
+    for(let i=0; i<parent.children.lenght; i++){
+        console.log(parent.children[1].innerHTML);
+    }
+        parent.children[1].style.color="red"
+        console.log(parent.firstElementChild);
+        const oneDay=document.querySelector('.day')
+        console.log(oneDay);
+        console.log(oneDay.parentElement);
+        console.log(oneDay.nextElementSibling);
+</script> 
